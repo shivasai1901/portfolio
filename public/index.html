@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio | B.Tech</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header id="home">
+        <div class="hero">
+            <img src="student.jpg" alt="Student Image" />
+            <h1>Hi, I'm <span>Student Name</span></h1>
+            <p>B.Tech Student | Aspiring Full Stack Developer</p>
+            <a href="23881A05X7-V.SHIVA SAI-Resume (1).pdf" class="btn" download>Download Resume</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="title">
+            <h2>About Me</h2>
+        </div>
+        <p>
+            I am a B.Tech student passionate about software development, web technologies, and problem solving. I enjoy
+            building modern, responsive, and scalable web applications.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="title">
+            <h2>Skills</h2>
+        </div>
+        <div class="skills-box">
+            <div class="skill">HTML, CSS, JavaScript</div>
+            <div class="skill">React & Bootstrap</div>
+            <div class="skill">Python & Java</div>
+            <div class="skill">Django / Node.js</div>
+            <div class="skill">MySQL & MongoDB</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="title">
+            <h2>Projects</h2>
+        </div>
+        <!-- Projects will be loaded dynamically via JS -->
+        <div class="projects-box">
+            <div class="project">
+                <h3>Loading...</h3>
+                <p>Fetching projects from backend...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="title">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="contact-form">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>© 2026 Student Portfolio | All Rights Reserved</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
